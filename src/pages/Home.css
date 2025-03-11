@@ -1,0 +1,47 @@
+.home-container {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   padding: 20px;
+ }
+ .card {
+   flex: 1;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   padding: 10px;
+   background: #fff;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ .card h2 {
+   text-align: center;
+   font-size: 18px;
+   margin-bottom: 10px;
+ }
+ .card-items {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+ }
+ .card-item {
+   text-align: center;
+ }
+ .card-item img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 8px;
+ }
+ .card-item p {
+   font-size: 14px;
+   margin-top: 5px;
+ }
+ /* add card hover effect background and trasition effect */
+ .card:hover {
+  background: #f7f7f7;
+  transform: scale(1.050);
+ }
+
+ 
+
+ 
