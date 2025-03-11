@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <div>
-        <img src="public/shopping-banner.png" alt="no-img" className="banner-img" />
+        <img src=".public/shopping-banner.png" alt="no-img" className="banner-img" />
       </div>
       <div className="home-container">
         {Object.keys(categories).map((category) => (
